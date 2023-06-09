@@ -17,7 +17,12 @@
 % Fonts
 % ====================
 
-\newfontfamily\Raleway[Ligatures=TeX]{Raleway}
+\newfontfamily\Fira[Ligatures=TeX]{Fira Sans}[
+  UprightFont=* Light,
+  ItalicFont=* Light Italic,
+  BoldFont=* Medium,
+  BoldItalicFont=* Medium Italic
+]
 \newfontfamily\Lato[Ligatures=TeX]{Lato}[
   UprightFont=*-Light,
   ItalicFont=*-LightItalic,
@@ -29,14 +34,14 @@
 
 \setsansfont{Lato}
 
-\setbeamerfont{headline}{family=\Raleway}
+\setbeamerfont{headline}{family=\Fira}
 \setbeamerfont{headline title}{size=\Huge,series=\bfseries}
 \setbeamerfont{headline author}{size=\Large}
 \setbeamerfont{headline institute}{size=\normalsize}
-\setbeamerfont{block title}{family=\Raleway,size=\large,series=\bfseries}
+\setbeamerfont{block title}{family=\Fira,size=\large,series=\bfseries}
 \setbeamerfont{heading}{family=\Lato,series=\bfseries}
 \setbeamerfont{caption}{size=\small}
-\setbeamerfont{footline}{family=\Raleway,size=\normalsize}
+\setbeamerfont{footline}{family=\Fira,size=\normalsize}
 
 % ====================
 % Macros
