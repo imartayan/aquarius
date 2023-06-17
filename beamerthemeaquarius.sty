@@ -17,20 +17,13 @@
 % Fonts
 % ====================
 
-\newfontfamily\Fira[Ligatures=TeX]{Fira Sans}[
+\usefonttheme{professionalfonts}
+
+\setsansfont{Fira Sans}[
   UprightFont=* Light,
   ItalicFont=* Light Italic,
   BoldFont=* Medium,
   BoldItalicFont=* Medium Italic
-]
-
-\usefonttheme{professionalfonts}
-
-\setsansfont[Ligatures=TeX]{Lato}[
-  UprightFont=*-Light,
-  ItalicFont=*-LightItalic,
-  BoldFont=*-Medium,
-  BoldItalicFont=*-MediumItalic
 ]
 
 \setmonofont{Fira Mono}[
@@ -40,14 +33,13 @@
   BoldItalicFont=* Medium
 ]
 
-\setbeamerfont{headline}{family=\Fira}
 \setbeamerfont{headline title}{size=\Huge,series=\bfseries}
 \setbeamerfont{headline author}{size=\LARGE}
 \setbeamerfont{headline institute}{size=\Large}
-\setbeamerfont{footline}{family=\Fira,size=\Large}
-\setbeamerfont{block title}{family=\Fira,size=\huge,series=\bfseries}
+\setbeamerfont{footline}{size=\Large}
+\setbeamerfont{block title}{size=\huge,series=\bfseries}
 \setbeamerfont{block body}{size=\Large}
-\setbeamerfont{heading}{family=\sffamily,series=\bfseries}
+\setbeamerfont{heading}{series=\bfseries}
 \setbeamerfont{alerted text}{series=\bfseries}
 \setbeamerfont{caption}{size=\large}
 
