@@ -7,6 +7,7 @@
 % Dependencies
 % ====================
 
+\RequirePackage{anyfontsize}
 \RequirePackage{exscale}
 \RequirePackage{ragged2e}
 \RequirePackage{changepage}
@@ -23,25 +24,29 @@
   UprightFont=* Light,
   ItalicFont=* Light Italic,
   BoldFont=* Medium,
-  BoldItalicFont=* Medium Italic
+  BoldItalicFont=* Medium Italic,
+  Scale=0.85
 ]
 
 \setmonofont{Fira Mono}[
   UprightFont=*,
   ItalicFont=*,
   BoldFont=* Medium,
-  BoldItalicFont=* Medium
+  BoldItalicFont=* Medium,
+  Scale=0.85
 ]
 
+\renewcommand{\baselinestretch}{0.85}
+
 \setbeamerfont{headline title}{size=\Huge,series=\bfseries}
-\setbeamerfont{headline author}{size=\LARGE}
-\setbeamerfont{headline institute}{size=\Large}
-\setbeamerfont{footline}{size=\Large}
+\setbeamerfont{headline author}{size=\huge}
+\setbeamerfont{headline institute}{size=\LARGE}
+\setbeamerfont{footline}{size=\LARGE}
 \setbeamerfont{block title}{size=\huge,series=\bfseries}
-\setbeamerfont{block body}{size=\Large}
+\setbeamerfont{block body}{size=\LARGE}
 \setbeamerfont{heading}{series=\bfseries}
 \setbeamerfont{alerted text}{series=\bfseries}
-\setbeamerfont{caption}{size=\large}
+\setbeamerfont{caption}{size=\Large}
 
 % ====================
 % Macros
